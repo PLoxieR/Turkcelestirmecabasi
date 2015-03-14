@@ -1,0 +1,22 @@
+{
+  "authAPI": "https://authserver.mojang.com/authenticate",
+  "profileAPI": "https://api.mojang.com/profiles/page/1",
+  "proxies": {
+    "proxyMethod": 0,
+    "connectionTimeout": 1000,
+    "readTimeout": 10000
+  },
+  "console": {
+    "loginMessages": true,
+    "proxyMessages": false
+  },
+  "checker": {
+    "threadCount": 32,
+    "threadResetMS": 40000,
+    "checkPremiumUsernames": true,
+    "checkEmailAccounts": true,
+    "checkMigratedUsernames": true,
+    "checkDemoUsernames": false,
+    "emailType": 0
+  }
+}

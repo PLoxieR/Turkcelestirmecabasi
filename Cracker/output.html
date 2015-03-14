@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+ <header>
+     <title>LoL Account Checker</title>
+     <style>
+         table { width: 100%; border: 1px solid #000000; }
+         th, td { border: 1px solid #000000; }
+         .a { background-color: #EEEEEE; }
+         .b { background-color: #FFFFFF; }
+     </style>
+     <script type="text/javascript">
+          function sortTable(t,e,o){var l,n=t.tBodies[0],a=Array.prototype.slice.call(n.rows,0);for(o=-(+o||-1),a=a.sort(function(t,l){return o*t.cells[e].textContent.trim().localeCompare(l.cells[e].textContent.trim())}),l=0;l<a.length;++l)n.appendChild(a[l])}function makeSortable(t){var e,o=t.tHead;if(o&&(o=o.rows[0])&&(o=o.cells),o)for(e=o.length;--e>=0;)(function(e){var l=1;o[e].addEventListener("click",function(){sortTable(t,e,l=1-l)})})(e)}function makeAllSortable(t){t=t||document.body;for(var e=t.getElementsByTagName("table"),o=e.length;--o>=0;)makeSortable(e[o])}window.onload=function(){makeAllSortable()};
+     </script>
+ </header>
+ <body>
+ <h1>Valid Accounts:</h1>     <table>
+     <thead>
+         <tr>
+             <th>Username</th>
+             <th>Password</th>
+             <th>Summoner Name</th>
+             <th>Level</th>
+             <th>Email Status</th>
+             <th>RP</th>
+             <th>IP</th>
+             <th>Champions</th>
+             <th>Skins</th>
+             <th>Rune Pages</th>
+             <th>Rank</th>
+             <th>Last Play</th>
+         </tr>
+     </thead>
+     <tbody>
+         <tr class=a>
+             <td>arcade15</td>
+             <td>arcade15</td>
+             <td>arcade15</td>
+             <td>30</td>
+             <td>Validated</td>
+             <td>14</td>
+             <td>1073</td>
+             <td>41</td>
+             <td>7</td>
+             <td>2</td>
+             <td>Gold V</td>
+             <td>27.02.2015 07:43:25</td>
+         </tr>
+         <tr class=b>
+             <td>senturk97</td>
+             <td>senturk97</td>
+             <td>EG Kreepo</td>
+             <td>30</td>
+             <td>Validated</td>
+             <td>88</td>
+             <td>3743</td>
+             <td>37</td>
+             <td>11</td>
+             <td>3</td>
+             <td>Bronze III</td>
+             <td>26.02.2015 01:17:45</td>
+         </tr>
+         <tr class=a>
+             <td>bachelubo1</td>
+             <td>bachelubo1</td>
+             <td>bachelubo1</td>
+             <td>30</td>
+             <td>Validated</td>
+             <td>140</td>
+             <td>1203</td>
+             <td>40</td>
+             <td>1</td>
+             <td>2</td>
+             <td>Bronze IV</td>
+             <td>21.02.2015 14:24:49</td>
+         </tr>
+         <tr class=b>
+             <td>vbakalov</td>
+             <td>vbakalov1</td>
+             <td>vbakalov</td>
+             <td>30</td>
+             <td>Validated</td>
+             <td>239</td>
+             <td>1175</td>
+             <td>41</td>
+             <td>5</td>
+             <td>4</td>
+             <td>Unranked</td>
+             <td>27.02.2015 15:12:36</td>
+         </tr>
+         <tr class=a>
+             <td>striker4e</td>
+             <td>striker4e123</td>
+             <td>striker4e</td>
+             <td>30</td>
+             <td>Validated</td>
+             <td>10</td>
+             <td>991</td>
+             <td>61</td>
+             <td>7</td>
+             <td>4</td>
+             <td>Sılver II</td>
+             <td>27.02.2015 17:09:07</td>
+         </tr>
+         <tr class=b>
+             <td>dimitriskokis</td>
+             <td>dimitriskokis1</td>
+             <td>dimitriskokis</td>
+             <td>30</td>
+             <td>Validated</td>
+             <td>86</td>
+             <td>1681</td>
+             <td>57</td>
+             <td>6</td>
+             <td>3</td>
+             <td>Sılver III</td>
+             <td>27.02.2015 19:18:56</td>
+         </tr>
+     </tbody>
+     </table>
+ </body>
+</html>
